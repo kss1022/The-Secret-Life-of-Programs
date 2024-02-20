@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87473B9C2B84A468004E8E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473B9B2B84A468004E8E97 /* AppDelegate.swift */; };
+		87473B9E2B84A468004E8E97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473B9D2B84A468004E8E97 /* SceneDelegate.swift */; };
+		87473BA52B84A46A004E8E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87473BA42B84A46A004E8E97 /* Assets.xcassets */; };
+		87473BA82B84A46A004E8E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87473BA62B84A46A004E8E97 /* LaunchScreen.storyboard */; };
+		87473BCB2B84A4E8004E8E97 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BCA2B84A4E8004E8E97 /* MainViewController.swift */; };
+		87473BF02B84A559004E8E97 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BE42B84A559004E8E97 /* GradientViewController.swift */; };
+		87473BF12B84A559004E8E97 /* SpiralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BE52B84A559004E8E97 /* SpiralViewController.swift */; };
+		87473BF32B84A559004E8E97 /* SpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BE72B84A559004E8E97 /* SpiralView.swift */; };
+		87473BF42B84A559004E8E97 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BE82B84A559004E8E97 /* GradientView.swift */; };
+		87473BF52B84A559004E8E97 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BE92B84A559004E8E97 /* ArcView.swift */; };
+		87473BF62B84A559004E8E97 /* ArcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BEA2B84A559004E8E97 /* ArcViewController.swift */; };
+		87473BF72B84A559004E8E97 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BEB2B84A559004E8E97 /* LineViewController.swift */; };
+		87473BF82B84A559004E8E97 /* GrideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BEC2B84A559004E8E97 /* GrideView.swift */; };
+		87473BFA2B84A559004E8E97 /* GrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BEE2B84A559004E8E97 /* GrideViewController.swift */; };
+		87473BFB2B84A559004E8E97 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87473BEF2B84A559004E8E97 /* LineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87473B982B84A468004E8E97 /* The Secret Life of Programs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Secret Life of Programs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87473B9B2B84A468004E8E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87473B9D2B84A468004E8E97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87473BA42B84A46A004E8E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87473BA72B84A46A004E8E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87473BA92B84A46A004E8E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87473BCA2B84A4E8004E8E97 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		87473BE42B84A559004E8E97 /* GradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		87473BE52B84A559004E8E97 /* SpiralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralViewController.swift; sourceTree = "<group>"; };
+		87473BE72B84A559004E8E97 /* SpiralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralView.swift; sourceTree = "<group>"; };
+		87473BE82B84A559004E8E97 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		87473BE92B84A559004E8E97 /* ArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		87473BEA2B84A559004E8E97 /* ArcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcViewController.swift; sourceTree = "<group>"; };
+		87473BEB2B84A559004E8E97 /* LineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
+		87473BEC2B84A559004E8E97 /* GrideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrideView.swift; sourceTree = "<group>"; };
+		87473BEE2B84A559004E8E97 /* GrideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrideViewController.swift; sourceTree = "<group>"; };
+		87473BEF2B84A559004E8E97 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87473B952B84A468004E8E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87473B8F2B84A468004E8E97 = {
+			isa = PBXGroup;
+			children = (
+				87473B9A2B84A468004E8E97 /* The Secret Life of Programs */,
+				87473B992B84A468004E8E97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87473B992B84A468004E8E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87473B982B84A468004E8E97 /* The Secret Life of Programs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87473B9A2B84A468004E8E97 /* The Secret Life of Programs */ = {
+			isa = PBXGroup;
+			children = (
+				87473C002B84A59B004E8E97 /* 5.Spiral */,
+				87473BFF2B84A593004E8E97 /* 2.Line */,
+				87473BFD2B84A582004E8E97 /* 3.Gradient */,
+				87473BFC2B84A56F004E8E97 /* 4.Arc */,
+				87473BFE2B84A586004E8E97 /* 1.Gride */,
+				87473B9B2B84A468004E8E97 /* AppDelegate.swift */,
+				87473B9D2B84A468004E8E97 /* SceneDelegate.swift */,
+				87473BCA2B84A4E8004E8E97 /* MainViewController.swift */,
+				87473BA42B84A46A004E8E97 /* Assets.xcassets */,
+				87473BA62B84A46A004E8E97 /* LaunchScreen.storyboard */,
+				87473BA92B84A46A004E8E97 /* Info.plist */,
+			);
+			path = "The Secret Life of Programs";
+			sourceTree = "<group>";
+		};
+		87473BFC2B84A56F004E8E97 /* 4.Arc */ = {
+			isa = PBXGroup;
+			children = (
+				87473BE92B84A559004E8E97 /* ArcView.swift */,
+				87473BEA2B84A559004E8E97 /* ArcViewController.swift */,
+			);
+			path = 4.Arc;
+			sourceTree = "<group>";
+		};
+		87473BFD2B84A582004E8E97 /* 3.Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				87473BE82B84A559004E8E97 /* GradientView.swift */,
+				87473BE42B84A559004E8E97 /* GradientViewController.swift */,
+			);
+			path = 3.Gradient;
+			sourceTree = "<group>";
+		};
+		87473BFE2B84A586004E8E97 /* 1.Gride */ = {
+			isa = PBXGroup;
+			children = (
+				87473BEC2B84A559004E8E97 /* GrideView.swift */,
+				87473BEE2B84A559004E8E97 /* GrideViewController.swift */,
+			);
+			path = 1.Gride;
+			sourceTree = "<group>";
+		};
+		87473BFF2B84A593004E8E97 /* 2.Line */ = {
+			isa = PBXGroup;
+			children = (
+				87473BEF2B84A559004E8E97 /* LineView.swift */,
+				87473BEB2B84A559004E8E97 /* LineViewController.swift */,
+			);
+			path = 2.Line;
+			sourceTree = "<group>";
+		};
+		87473C002B84A59B004E8E97 /* 5.Spiral */ = {
+			isa = PBXGroup;
+			children = (
+				87473BE72B84A559004E8E97 /* SpiralView.swift */,
+				87473BE52B84A559004E8E97 /* SpiralViewController.swift */,
+			);
+			path = 5.Spiral;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87473B972B84A468004E8E97 /* The Secret Life of Programs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87473BAC2B84A46A004E8E97 /* Build configuration list for PBXNativeTarget "The Secret Life of Programs" */;
+			buildPhases = (
+				87473B942B84A468004E8E97 /* Sources */,
+				87473B952B84A468004E8E97 /* Frameworks */,
+				87473B962B84A468004E8E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Secret Life of Programs";
+			productName = "The Secret Life of Programs";
+			productReference = 87473B982B84A468004E8E97 /* The Secret Life of Programs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87473B902B84A468004E8E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					87473B972B84A468004E8E97 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 87473B932B84A468004E8E97 /* Build configuration list for PBXProject "The Secret Life of Programs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87473B8F2B84A468004E8E97;
+			productRefGroup = 87473B992B84A468004E8E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87473B972B84A468004E8E97 /* The Secret Life of Programs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87473B962B84A468004E8E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87473BA82B84A46A004E8E97 /* LaunchScreen.storyboard in Resources */,
+				87473BA52B84A46A004E8E97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87473B942B84A468004E8E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87473BF12B84A559004E8E97 /* SpiralViewController.swift in Sources */,
+				87473BF02B84A559004E8E97 /* GradientViewController.swift in Sources */,
+				87473BF62B84A559004E8E97 /* ArcViewController.swift in Sources */,
+				87473BFA2B84A559004E8E97 /* GrideViewController.swift in Sources */,
+				87473BF82B84A559004E8E97 /* GrideView.swift in Sources */,
+				87473BCB2B84A4E8004E8E97 /* MainViewController.swift in Sources */,
+				87473B9C2B84A468004E8E97 /* AppDelegate.swift in Sources */,
+				87473BFB2B84A559004E8E97 /* LineView.swift in Sources */,
+				87473B9E2B84A468004E8E97 /* SceneDelegate.swift in Sources */,
+				87473BF52B84A559004E8E97 /* ArcView.swift in Sources */,
+				87473BF42B84A559004E8E97 /* GradientView.swift in Sources */,
+				87473BF32B84A559004E8E97 /* SpiralView.swift in Sources */,
+				87473BF72B84A559004E8E97 /* LineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87473BA62B84A46A004E8E97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87473BA72B84A46A004E8E97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87473BAA2B84A46A004E8E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87473BAB2B84A46A004E8E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87473BAD2B84A46A004E8E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADAV929TJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Secret Life of Programs/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hg.The-Secret-Life-of-Programs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		87473BAE2B84A46A004E8E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADAV929TJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Secret Life of Programs/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hg.The-Secret-Life-of-Programs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87473B932B84A468004E8E97 /* Build configuration list for PBXProject "The Secret Life of Programs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87473BAA2B84A46A004E8E97 /* Debug */,
+				87473BAB2B84A46A004E8E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87473BAC2B84A46A004E8E97 /* Build configuration list for PBXNativeTarget "The Secret Life of Programs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87473BAD2B84A46A004E8E97 /* Debug */,
+				87473BAE2B84A46A004E8E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87473B902B84A468004E8E97 /* Project object */;
+}
